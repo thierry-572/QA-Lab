@@ -51,3 +51,49 @@ permitidos.
 -Portanto esse comportamento não foi classificado como bug.
 -É necessário definir com o responsável pelo sistema se nomes contendo
 numeros devem ser permitidos.
+
+
+##CT-003-Listagem de tarefas
+
+Requisito:
+RF-002-Listar tarefas
+
+Pré condição:
+Existir ao menos uma ou mais tarefas.
+
+Passos:
+1.iniciar o sistema.
+2.cadastrar uma tarefa.
+3.Selecionar a opção "Lista de tarefas".
+
+Resultado esperado:
+O sistema deve exibir todas as tarefas cadastradas apresentando
+seus respectivos nomes de forma organizada.
+
+Resultado obtido:
+As tarefas foram exibidas corretamente.
+Status
+PASSOU
+
+##CT-004-Excluir tarefa
+
+Requisito:
+RF-004-Excluir tarefa
+
+Pré condição:
+Existir ao menos uma tarefa cadastrada. 
+
+Passos:
+1.iniciar o sistema.
+2.cadastrar uma tarefa.
+3.selecionar o opção excluir tarefa.
+4.digitar o nome da tarefa que deseja excluir.
+
+Resultado esperado:
+O sistema excluir a tarefa já cadastrada.
+
+Resultado obtido:
+A tarefa foi excluida corretamente.
+
+STATUS
+PASSOU
